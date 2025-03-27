@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--suppress AndroidUnresolvableTag -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConditionSelection">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Robot"
+        android:id="@+id/Robot"
+        android:layout_marginTop="30dp"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:onClick="Robot"
+        android:textColor="@color/white"
+        android:background="@color/purple_700"
+        android:textAlignment="center"
+        android:clickable="true"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Human"
+        android:id="@+id/Human"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:onClick="Human"
+        android:textAlignment="center"
+        android:clickable="true"/>
+
+    <Spinner
+        android:layout_marginTop="60dp"
+        android:id="@+id/spinnerMenu"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:spinnerMode="dialog"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/finish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:layout_marginTop="70dp"
+        android:text="Start"
+        android:textAlignment="center"
+        android:visibility="invisible"/>
+
+
+</LinearLayout>

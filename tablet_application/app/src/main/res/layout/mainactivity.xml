@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="IP:port"
+        android:id="@+id/textView2"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentLeft="false"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentBottom="false"
+        android:layout_row="0"
+        android:layout_column="0" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/IPandPort"
+        android:layout_row="0"
+        android:layout_column="1"
+        android:layout_marginBottom="20dp"
+        android:text="Enter IP address:port here" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Connect"
+        android:id="@+id/ConnectButton"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:onClick="connectTablet" />
+
+
+
+    <TextView
+        android:layout_width="1226dp"
+        android:layout_height="wrap_content"
+        android:text="Not Connected..."
+        android:id="@+id/ConnectionStatus"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:height="@android:dimen/notification_large_icon_height"
+        android:textSize="30dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:id="@+id/startbutton"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:onClick="onStart"/>
+
+
+</LinearLayout>
