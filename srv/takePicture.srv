@@ -1,0 +1,7 @@
+string filename
+int32 imageWidth
+int32 imageHeight
+bool displayOnScreen
+bool overwriteExisting
+---
+string pictureString

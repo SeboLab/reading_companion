@@ -1,0 +1,5 @@
+---
+float32 frontLeft
+float32 frontCenter
+float32 frontRight
+float32 rear

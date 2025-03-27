@@ -1,0 +1,4 @@
+---
+string personName
+int32 distance
+int32 elevation
