@@ -1,4 +1,6 @@
-# Instructions to run reading anxiety study (Android tablet and Misty robot required)
+# Instructions to run reading companion study
+
+(Note: Android tablet and Misty robot required)
 
 Run the following commands in separate terminal windows
 
