@@ -1,6 +1,6 @@
 # Instructions to run reading companion study
 
-(Note: Android tablet and Misty robot required)
+Android tablet and Misty robot required. Texts taken from DIBELS 8th Edition Materials (https://dibels.uoregon.edu/materials/dibels).
 
 Run the following commands in separate terminal windows
 
